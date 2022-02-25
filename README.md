@@ -1,6 +1,8 @@
 # wc
 command line application for word count and line count for a given file or stdin input from command line
-install by using `go install main.go -o <YOUR_COMMAND_NAME>` or just by running `go build`
+install by using `go build -o <YOUR_COMMAND_NAME>` or just by running `go install` 
+make sure bunary generated from go build is mvoed to $PATH directories and $GOPATH/bin/ is also
+added to $PATH.
 
 ## word count
 `echo "some text with words" | ./wc `
